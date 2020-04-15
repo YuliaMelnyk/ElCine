@@ -1,0 +1,15 @@
+name: Navigation Styles
+description: Navigation styles for the Filmmaker theme
+type: section
+
+form:
+  fields:
+
+    background:
+      type: input.colorpicker
+      label: Background
+      default: "#181818"
+    text-color:
+      type: input.colorpicker
+      label: Text
+      default: "#949494"

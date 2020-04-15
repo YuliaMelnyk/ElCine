@@ -1,0 +1,11 @@
+#g-intro {
+    color: $intro-text-color;
+    background: $intro-background;
+}
+
+@media print {
+    #g-intro {
+        background: #fff !important;
+        color: #000 !important;
+    }
+}

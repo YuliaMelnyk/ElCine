@@ -1,0 +1,13 @@
+.g-branding {
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+    text-align: left;
+    line-height: 35px;
+    a{
+      color: $accent-color-2;
+      &:hover{
+        color: #444;
+      }
+    }
+}

@@ -1,0 +1,168 @@
+legend {
+	color: #333333;
+}
+
+legend small {
+	color: #999999;
+}
+
+.input-prepend .chzn-container-single .chzn-single,
+.input-append .chzn-container-single .chzn-single {
+	border-color: $base-border-color;
+}
+
+.input-prepend .chzn-container-single .chzn-drop,
+.input-append .chzn-container-single .chzn-drop {
+	border-color: $base-border-color;
+}
+
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input {
+	max-width: 100%;
+	width: 100%;
+	background: #fff;
+	height: 40px;
+	box-sizing: border-box;
+	vertical-align: middle;
+	display: inline-block;
+	padding: 0 6px;
+	background-color: #F7F9FA;
+	border: 1px solid #DBE3E7;
+	border-radius: 3px;
+	color: #536171;
+	@include transition(border 0.2s linear, box-shadow 0.2s linear);
+}
+
+#g-header, #g-navigation {
+	.search {
+		form {
+			margin-bottom: 0;
+		}
+		input {
+			margin-bottom: 0;
+			border: 0;
+		}
+	}
+}
+
+// Core Joomla Login Form
+#login-form {
+    .input-prepend > .add-on {
+        color: $base-text-color;
+            height: 2.1rem;
+    }
+    input[type="text"], input[type="password"] {
+        color: $base-text-color;
+        height: 1.25rem;
+    }
+    .controls .input-append .btn {
+        line-height: 26px;
+        height: 2.15rem;
+    }
+}
+
+// Mailto and Print Windows
+.view-mailto, .body-only {
+    #g-page-surround {
+        box-shadow: none;
+    }
+}
+.login img {
+  display: inline-block;
+  margin: 20px 0;
+}
+.login .checkbox input[type="checkbox"] {
+  margin-top: 6px;
+}
+.form-links a {
+  margin-right: 10px;
+}
+.com_users .reg-login-form-wrap,
+.view-reset .reset,
+.view-remind .remind {
+  background: #f7f9fb;
+  position: relative;
+  padding: 45px;
+	max-width: 550px;
+  margin: 0 auto;
+}
+.view-reset .reset #user-registration {
+    text-align: left;
+}
+.view-remind .remind #user-registration {
+    text-align: left;
+}
+.com_users .reg-login-form-wrap .reg-login-title h3 {
+  font-weight: 600;
+  color: #000;
+	font-size: 34px;
+  margin-top: 0;
+  margin-bottom: 58px;
+}
+.com_users .reg-login-form-wrap .form-validate input,
+.view-reset .reset .validate-username,
+.view-remind .remind .validate-email {
+  box-shadow: none;
+  padding: 0 0 0 20px;
+  background: #fff;
+}
+.com_users .reg-login-form-wrap .registration,
+.com_users .reg-login-form-wrap .login {
+  margin-bottom: 45px;
+}
+.com_users .reg-login-form-wrap .registration .form-group,
+.com_users .reg-login-form-wrap .login .form-group {
+  margin-bottom: 24px;
+  text-align: left;
+}
+.com_users .reg-login-form-wrap .registration .form-group p,
+.com_users .reg-login-form-wrap .login .form-group p {
+  color: #000;
+  font-weight: 600;
+	margin-bottom: 0;
+}
+.com_users .reg-login-form-wrap .registration {
+  margin-bottom: 0;
+}
+.com_users .reg-login-form-wrap .registration >p {
+  margin-bottom: 0;
+  text-align: left;
+}
+.com_users .reg-login-form-wrap .registration .form-validate .form-group .btn.btn-primary {
+  margin-top: 20px;
+  margin-bottom: 22px;
+}
+.com_users .reg-login-form-wrap .form-links {
+  text-align: left;
+}
+.com_users.view-login .logout {
+  text-align: center;
+  padding: 100px 0;
+  background-color: #fff;
+}
+.com_users.view-login .logout .btn.btn-primary {
+  background-color: #ff629b;
+  border: none;
+}
+.com_users.view-login .logout .btn.btn-primary:hover,
+.com_users.view-login .logout .btn.btn-primary:focus {
+  color: #fff;
+}
+.reset h1,
+.remind h1 {
+  text-align: left;
+}

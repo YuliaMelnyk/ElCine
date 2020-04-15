@@ -1,0 +1,62 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+layout:
+  /header/: {  }
+  /navigation/:
+    -
+      - 'logo-7657 30'
+      - 'menu-5263 70'
+  /container-main/:
+    -
+      - main 60:
+          - position-breadcrumbs
+          - system-messages
+          - pagecontent
+      - aside 20:
+         - position-aside
+      - sidebar 20:
+         - position-sidebar
+  /footer/:
+    -
+      - position-footer
+    -
+      - 'branding-4929 33.3'
+      - 'spacer-5509 33.3'
+      - 'totop-1834 33.3'
+  offcanvas:
+    -
+      - mobile-menu-5419
+structure:
+  header:
+    attributes:
+      boxed: ''
+  navigation:
+    type: section
+    attributes:
+      boxed: ''
+  sidebar:
+    type: section
+  mainbar:
+    type: section
+  container-main:
+    attributes:
+      boxed: ''
+  footer:
+    attributes:
+      boxed: ''
+content:
+  menu-5263:
+    block:
+      variations: align-right
+  position-position-1366:
+    title: 'Module Position'
+    attributes:
+      key: breadcrumbs
+  position-footer:
+    attributes:
+      key: footer
+  totop-1834:
+    title: 'To Top'
+    block:
+      variations: align-right

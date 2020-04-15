@@ -1,0 +1,14 @@
+#g-breadcrumb {
+    color: $breadcrumb-text-color;
+    background: $breadcrumb-background;
+    .g-content{
+      padding: 0;
+    }
+}
+
+@media print {
+    #g-breadcrumb {
+        background: #fff !important;
+        color: #000 !important;
+    }
+}

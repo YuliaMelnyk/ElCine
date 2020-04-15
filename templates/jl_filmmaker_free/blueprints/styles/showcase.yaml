@@ -1,0 +1,15 @@
+name: Showcase Styles
+description: Showcase styles for the Filmmaker theme
+type: section
+
+form:
+  fields:
+
+    background:
+      type: input.colorpicker
+      label: Background
+      default: "#361752"
+    text-color:
+      type: input.colorpicker
+      label: Text
+      default: "#666666"

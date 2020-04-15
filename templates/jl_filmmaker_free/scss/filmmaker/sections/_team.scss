@@ -1,0 +1,11 @@
+#g-team {
+    color: $team-text-color;
+    background: $team-background;
+}
+
+@media print {
+    #g-team {
+        background: #fff !important;
+        color: #000 !important;
+    }
+}

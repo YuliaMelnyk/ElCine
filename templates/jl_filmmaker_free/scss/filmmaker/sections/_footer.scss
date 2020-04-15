@@ -1,0 +1,30 @@
+#g-footer {
+    color: $footer-text-color;
+    background: $footer-background;
+    position: relative;
+    .g-content{
+      position: relative;
+      z-index: 2;
+    }
+    @if $footer-background-image {
+      background: url($footer-background-image) no-repeat center center;
+      background-size: cover;
+      &:before{
+        background: #000 none repeat scroll 0 0;
+        content: "";
+        height: 100%;
+        left: 0;
+        opacity: 0.9;
+        position: absolute;
+        top: 0;
+        width: 100%;
+      }
+    }
+}
+
+@media print {
+    #g-footer  {
+        background: #fff !important;
+        color: #000 !important;
+    }
+}

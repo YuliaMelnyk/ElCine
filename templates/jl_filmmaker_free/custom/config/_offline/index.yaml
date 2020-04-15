@@ -1,0 +1,58 @@
+name: _offline
+timestamp: 1586941580
+version: 7
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: _offline
+  timestamp: 1499244976
+positions:
+  subscribe-ft: 'Subscribe Footer'
+sections:
+  navigation: Navigation
+  pagetitle: Pagetitle
+  sidebar: Sidebar
+  mainbar: Mainbar
+  aside: Aside
+  footer: Footer
+  offcanvas: Offcanvas
+particles:
+  logo:
+    logo-9543: Logo
+  menu:
+    menu-1327: Menu
+  messages:
+    system-messages-6376: 'System Messages'
+  content:
+    system-content-3365: 'Page Content'
+  position:
+    position-position-8539: 'Subscribe Footer'
+  custom:
+    custom-9651: Services
+    custom-6137: 'Information Link'
+    custom-9703: 'Quick Contact'
+  spacer:
+    spacer-6336: Spacer
+  branding:
+    branding-4982: Branding
+  social:
+    social-5367: Social
+  mobile-menu:
+    mobile-menu-9873: Mobile-menu
+inherit:
+  default:
+    navigation: navigation
+    mainbar: mainbar
+    footer: footer
+    offcanvas: offcanvas
+    logo-9543: logo-5573
+    menu-1327: menu-6663
+    system-messages-6376: system-messages-1029
+    system-content-3365: system-content-3952
+    position-position-8539: position-position-4237
+    custom-9651: custom-6693
+    custom-6137: custom-3821
+    custom-9703: custom-7801
+    spacer-6336: spacer-6235
+    branding-4982: branding-3807
+    social-5367: social-4840
+    mobile-menu-9873: mobile-menu-2118

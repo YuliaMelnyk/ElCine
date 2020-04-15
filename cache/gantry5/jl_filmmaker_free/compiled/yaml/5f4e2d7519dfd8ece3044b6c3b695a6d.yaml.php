@@ -1,0 +1,67 @@
+<?php
+return [
+    '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
+    'filename' => 'C:/xampp/htdocs/proyecto/templates/jl_filmmaker_free/custom/config/default/index.yaml',
+    'modified' => 1586941581,
+    'data' => [
+        'name' => 'default',
+        'timestamp' => 1586941581,
+        'version' => 7,
+        'preset' => [
+            'image' => 'gantry-admin://images/layouts/default.png',
+            'name' => 'default',
+            'timestamp' => 1586941580
+        ],
+        'positions' => [
+            'breadcrumb' => 'Breadcrumb',
+            'subscribe-ft' => 'Subscribe Footer'
+        ],
+        'sections' => [
+            'navigation' => 'Navigation',
+            'pagetitle' => 'Pagetitle',
+            'sidebar' => 'Sidebar',
+            'mainbar' => 'Mainbar',
+            'aside' => 'Aside',
+            'footer' => 'Footer',
+            'offcanvas' => 'Offcanvas'
+        ],
+        'particles' => [
+            'logo' => [
+                'logo-7657' => 'Logo'
+            ],
+            'menu' => [
+                'menu-5263' => 'Menu'
+            ],
+            'position' => [
+                'position-position-2782' => 'Breadcrumb',
+                'position-position-6745' => 'Subscribe Footer'
+            ],
+            'messages' => [
+                'system-messages-4126' => 'System Messages'
+            ],
+            'content' => [
+                'system-content-1246' => 'Page Content'
+            ],
+            'custom' => [
+                'custom-4190' => 'Services',
+                'custom-8791' => 'Information Link',
+                'custom-9444' => 'Quick Contact'
+            ],
+            'spacer' => [
+                'spacer-6474' => 'Spacer'
+            ],
+            'branding' => [
+                'branding-8780' => 'Branding'
+            ],
+            'social' => [
+                'social-2328' => 'Social'
+            ],
+            'mobile-menu' => [
+                'mobile-menu-5419' => 'Mobile-menu'
+            ]
+        ],
+        'inherit' => [
+            
+        ]
+    ]
+];

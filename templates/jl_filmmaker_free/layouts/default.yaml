@@ -1,0 +1,116 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: default
+  timestamp: 1499237671
+layout:
+  /navigation/:
+    -
+      - 'logo-7657 25'
+      - 'menu-5263 75'
+  /pagetitle/:
+    -
+      - position-position-2782
+  /container-main/:
+    -
+      -
+        'sidebar 20': {  }
+      -
+        'mainbar 60':
+          -
+            - system-messages-4126
+          -
+            - system-content-1246
+      -
+        'aside 20': {  }
+  /footer/:
+    -
+      - 'position-position-6745 25'
+      - 'custom-4190 25'
+      - 'custom-8791 25'
+      - 'custom-9444 25'
+    -
+      - spacer-6474
+    -
+      - 'branding-8780 50'
+      - 'social-2328 50'
+  offcanvas:
+    -
+      - mobile-menu-5419
+structure:
+  navigation:
+    type: section
+    attributes:
+      boxed: ''
+      class: section-horizontal-paddings
+  pagetitle:
+    type: section
+    attributes:
+      boxed: ''
+      class: 'section-horizontal-paddings section-vertical-paddings'
+  sidebar:
+    type: section
+  mainbar:
+    type: section
+  container-main:
+    attributes:
+      boxed: ''
+      class: section-horizontal-paddings
+      extra: {  }
+  footer:
+    attributes:
+      boxed: ''
+      class: 'section-horizontal-paddings section-vertical-paddings'
+content:
+  logo-7657:
+    attributes:
+      image: 'gantry-media://logo/logo.png'
+  menu-5263:
+    block:
+      variations: align-right
+  position-position-2782:
+    title: Breadcrumb
+    attributes:
+      key: breadcrumb
+  position-position-6745:
+    title: 'Subscribe Footer'
+    attributes:
+      key: subscribe-ft
+  custom-4190:
+    title: Services
+    attributes:
+      html: "<div class=\"footer-txt\">\n  <div class=\"ft-heading\">\n    <h4>Services</h4>\n    <ul>\n\t\t\t<li><a href=\"#\">Hire Studio</a></li>\n\t\t\t<li><a href=\"#\">Outdoor Spot</a></li>\n\t\t\t<li><a href=\"#\">Flexible Space</a></li>\n\t\t\t<li><a href=\"#\">Production House Rent</a></li>\n\t\t</ul>\n  </div>\n</div>\n"
+  custom-8791:
+    title: 'Information Link'
+    attributes:
+      html: "<div class=\"footer-txt\">\n  <div class=\"ft-heading\">\n    <h4>INFORMATION LINK</h4>\n    <ul>\n  \t\t<li><a href=\"#\">About Us</a></li>\n  \t\t<li><a href=\"#\">Privacy Policy</a></li>\n  \t\t<li><a href=\"#\">Terms &amp; Condition</a></li>\n  \t\t<li><a href=\"#\">Pricing Of Filmcity</a></li>\n  \t</ul>\n  </div>\n</div>\n"
+  custom-9444:
+    title: 'Quick Contact'
+    attributes:
+      html: "<div class=\"footer-txt\">\n  <div class=\"ft-heading\">\n    <h4>INFORMATION LINK</h4>\n    <p>\n      Address: House. 4, Rosd. 7, East city. Orled. Sydney. Australya.\n    </p>\n    <p>\n      Phone:  +8801912345678 +8801912345678\n    </p>\n    <p>\n      E-mail: www.filmcity@gmail.com filmcitycompany@gmail.com\n    </p>\n  </div>\n</div>\n"
+  spacer-6474:
+    block:
+      class: line
+  social-2328:
+    attributes:
+      items:
+        -
+          icon: 'fa fa-facebook fa-fw'
+          text: ''
+          link: 'https://www.facebook.com/JoomLead'
+          name: Facebook
+        -
+          icon: 'fa fa-twitter fa-fw'
+          text: ''
+          link: 'http://www.twitter.com/JoomLead'
+          name: Twitter
+        -
+          icon: 'fa fa-pinterest-p fa-fw'
+          text: ''
+          link: '#'
+          name: Pinterest
+        -
+          icon: 'fa fa-google-plus fa-fw'
+          text: ''
+          link: '#'
+          name: 'Google +'

@@ -1,0 +1,20 @@
+atoms:
+  -
+    id: assets-2958
+    type: assets
+    title: 'Custom CSS / JS'
+    attributes:
+      enabled: '1'
+      css:
+        - { location: 'gantry-assets://css/uikit.min.css', inline: '', extra: {  }, priority: '0', name: Uikit }
+      javascript:
+        - { location: 'gantry-assets://js/uikit.min.js', inline: '', in_footer: '0', extra: {  }, priority: '0', name: Uikit }
+  -
+    type: frameworks
+    title: 'JavaScript Frameworks'
+    id: frameworks-6684
+    inherit:
+      outline: default
+      atom: frameworks-6684
+      include:
+        - attributes

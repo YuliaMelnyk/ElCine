@@ -1,0 +1,30 @@
+#g-pagetitle {
+    color: $pagetitle-text-color;
+    background: $pagetitle-background;  
+    position: relative;
+    @if $pagetitle-background-image {
+      background: url($pagetitle-background-image) no-repeat center top;
+      background-size: cover;
+      &:before{
+        background: #000 none repeat scroll 0 0;
+        content: "";
+        height: 100%;
+        left: 0;
+        opacity: 0.7;
+        position: absolute;
+        top: 0;
+        width: 100%;
+      }
+    }
+    .g-content{
+      position: relative;
+      z-index: 2;
+    }
+}
+
+@media print {
+    #g-pagetitle {
+        background: #fff !important;
+        color: #000 !important;
+    }
+}

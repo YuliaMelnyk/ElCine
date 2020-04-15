@@ -1,0 +1,15 @@
+#g-testimonials {
+    color: $testimonials-text-color;
+    background: $testimonials-background;
+    @if $testimonials-background-image {
+      background: url($testimonials-background-image) no-repeat center top;
+      background-size: cover;
+    }
+}
+
+@media print {
+    #g-testimonials {
+        background: #fff !important;
+        color: #000 !important;
+    }
+}

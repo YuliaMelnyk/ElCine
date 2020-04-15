@@ -1,0 +1,32 @@
+.g-social {
+        line-height: normal;
+        text-align: right;
+    a {
+      color: #fff;
+      span{
+        &:hover{
+          background: #fff;
+          color: #555;
+        }
+        width: 35px;
+        height: 35px;
+        border: 1px solid #fff;
+        color: #fff;
+        line-height: 35px;
+        text-align: center;
+        font-size: 14px;
+        border-radius: 50%;
+        &.g-social-text{
+          border: none;
+        }
+      }
+      &:hover{
+        color: $accent-color-1;
+      }
+    }
+
+    @include breakpoint(mobile-only) {
+        text-align: center;
+    }
+
+}

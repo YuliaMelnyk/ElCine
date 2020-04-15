@@ -1,0 +1,17 @@
+#g-error {
+    color: $error-text-color;
+    background: $error-background;
+    @if $error-background-image {
+      background: url($error-background-image) no-repeat center top;
+      background-size: cover;
+    }
+    position: relative;
+    text-align: center;
+}
+
+@media print {
+    #g-error  {
+        background: #fff !important;
+        color: #000 !important;
+    }
+}

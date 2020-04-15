@@ -1,0 +1,9 @@
+filmmaker-theme:
+  title: 'Filmmaker Theme'
+  description: 'Sample menu for Filmmaker theme.'
+
+  items:
+    filmmaker:
+      title: 'Home'
+      outline: home
+      home: 1
